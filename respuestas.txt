@@ -14,4 +14,29 @@ RVM es una herramienta de línea de comandos que permite instalar fácilmente, g
 34. ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete de Ruby (ruby helloWorld.rb) y el intérprete interactivo del ejercicio anterior?
 
  - La diferencia está que en el interprete interactivo tenemos que ir poniendo cada líena que queremos ejecutar y en la ejecución del programa podemos escribir todo el programa y luego ejecutarlo.
+
+40. ¿Cuál es el resultado de cada una de las siguientes operaciones?
+    
+      [1] pry(main)> puts x
+	10
+	=> nil
+      [2] pry(main)> def hello
+      [2] pry(main)*   puts "Hello world"
+      [2] pry(main)* end
+	=> nil
+      [3] pry(main)> hello
+	Hello world
+	=> nil
+      [4] pry(main)> byebye
+	bye bye world!!!
+	=> nil
+      [5] pry(main)> x = "changed"
+	=> changed
+      [6] pry(main)> exit
+	program resumes here. Value of x is: changed
+
+41. ¿Cuáles son las diferencias entre la ejecución del programa "Hola Mundo" con el intérprete interactivo y con pry?	
+
+ - Con el interprete ejecutamos la línea que queremos, con la ejecucón del programa sólo ejecutameos lo que hace el programa que hemos escrito y con el Pry no solo nos ha ejecutado el archivo byebyeworld, si no que nos ha dejado escribir funciones dentro del programa y ejecutarlas.
+
  
